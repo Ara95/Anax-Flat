@@ -38,10 +38,11 @@ return [
 
 
 
-/*
+
     // Used as menu together with responsive menu
     // Name of this menu
     "navbarMax" => [
+
         // Use for styling the menu
         "id" => "rm-menu",
         "wrapper" => null,
@@ -50,21 +51,27 @@ return [
         // Here comes the menu structure
         "items" => [
 
+            "Hem" => [
+                "text"  => t("Hem"),
+                "url"   => $this->di->get("url")->create("index"),
+                "title" => t("Hem")
+            ],
+
             "report" => [
-                "text"  => t("Report"),
+                "text"  => t("Redovisning"),
                 "url"   => $this->di->get("url")->create("report"),
                 "title" => t("Reports from kmom assignments"),
                 "mark-if-parent" => true,
             ],
 
-            "about" => [
-                "text"  => t("About"),
+            "Om" => [
+                "text"  => t("Om"),
                 "url"   => $this->di->get("url")->create("about"),
                 "title" => t("About this website")
             ],
         ],
     ],
-*/
+
 
 
     /**
