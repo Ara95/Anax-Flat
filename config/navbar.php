@@ -16,7 +16,7 @@ return [
 
             "Hem" => [
                 "text"  => t("Hem"),
-                "url"   => $this->di->get("url")->create("index"),
+                "url"   => $this->di->get("url")->create(""),
                 "title" => t("Hem")
             ],
 
@@ -31,6 +31,30 @@ return [
                 "text"  => t("Om"),
                 "url"   => $this->di->get("url")->create("about"),
                 "title" => t("About this website")
+            ],
+
+            "analysis" => [
+                "text"  => t("Analys"),
+                "url"   => $this->di->get("url")->create("analysis"),
+                "title" => t("Analys")
+            ],
+
+            "Teman" => [
+                "text"  => t("Teman"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("Teman")
+            ],
+
+            "Typografi" => [
+                "text"  => t("Typografi"),
+                "url"   => $this->di->get("url")->create("typography"),
+                "title" => t("Typografi")
+            ],
+
+            "Grid" => [
+                "text"  => t("Grid"),
+                "url"   => $this->di->get("url")->create("grid"),
+                "title" => t("Sidebar")
             ],
 
         ],
