@@ -87,6 +87,27 @@ site-update:
 	rsync -a vendor/mos/cimage/webroot/imgd.php htdocs/cimage/imgd.php
 	rsync -a vendor/mos/cimage/icc/ htdocs/cimage/icc/
 
+# target: cimage-create       - Update and create basis for cimage.
+.PHONY: cimage-create
+
+define CIMAGE_CONF
+<?php
+return [
+	'mode'         => 'development',
+	'image_path'   =>  __DIR__ . '/../img/',
+	'cache_path'   =>  __DIR__ . '/../../cache/cimage/',
+];
+endef
+export CIMAGE_CONF
+
+cimage-create:
+	@$(call HELPTEXT,$@)
+
+	@$(ECHO) "$(ACTION)Copy from CImage$(NO_COLOR)"
+	install -d htdocs/cimage
+	rsync -a vendor/mos/cimage/webroot/imgd.php htdocs/cimage/imgd.php
+	rsync -a vendor/mos/cimage/icc/ htdocs/cimage/icc/
+	@echo "$$CIMAGE_CONF" > htdocs/cimage/imgd_config.php
 
 
 # target: prepare-build       - Clear and recreate the build directory.

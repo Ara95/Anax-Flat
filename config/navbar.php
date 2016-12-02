@@ -57,6 +57,12 @@ return [
                 "title" => t("Sidebar")
             ],
 
+            "Blogg" => [
+                "text"  => t("Blogg"),
+                "url"   => $this->di->get("url")->create("blogg"),
+                "title" => t("blogg")
+            ],
+
         ],
     ],
 

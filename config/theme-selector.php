@@ -20,7 +20,7 @@ return [
         ],
 
         "default"   => [
-            "title"      => "Mitt egna vald huvudtema",
+            "title"      => "Mitt egna valda huvudtema",
             "class"      => "",
             "stylesheets" => [
                 "css/default.min.css"
@@ -65,7 +65,7 @@ return [
             "title"      => "Typografi",
             "class"      => "light",
             "stylesheets" => [
-                "css/typography.min.css"
+                "css/font.min.css"
             ]
         ],
 
