@@ -63,6 +63,18 @@ return [
                 "title" => t("blogg")
             ],
 
+            "Bilder" => [
+                "text"  => t("Bilder"),
+                "url"   => $this->di->get("url")->create("images"),
+                "title" => t("Bilder")
+            ],
+
+            "Principer" => [
+                "text"  => t("Principer"),
+                "url"   => $this->di->get("url")->create("design-principle"),
+                "title" => t("Principer")
+            ],
+
         ],
     ],
 

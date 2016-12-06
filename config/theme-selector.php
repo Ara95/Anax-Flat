@@ -71,10 +71,29 @@ return [
 
         "separator2" => "------------------------------------------------",
 
-        //"fun"       => [
-            //"title"      => "All fun, test and play, make it stand out!",
-            //"class"      => "fun",
-            //"stylesheets" => []
-        //],
-    ]
+        "fun"       => [
+            "title"      => "All fun, test and play, make it stand out!",
+            "class"      => "fun",
+            "stylesheets" => []
+        ],
+
+        "Principle 1" => [
+            "title"      => "Principle",
+            "class"      => "principle1",
+            "stylesheets" => ["css/principle1.min.css"]
+        ],
+
+        "Principle 2" => [
+            "title"      => "Principle",
+            "class"      => "principle2",
+            "stylesheets" => ["css/principle2.min.css"]
+        ],
+
+        "Principle 3" => [
+            "title"      => "Principle",
+            "class"      => "principle3",
+            "stylesheets" => ["css/principle3.min.css"]
+        ],
+    ],
+
 ];

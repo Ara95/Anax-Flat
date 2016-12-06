@@ -52,3 +52,18 @@ Jag väljer att behålla den vita bakgrunden samt vissa gråa delar i detta tema
 </tbody></table>
 
 Nu använder jag mig utav en uppenbar dominant svart färg vilket nästan täcker hela sidan. Men jag har valt att sätta alla länkar till en röd färg, inte den vanliga utav en mer mörk mjuk röd färg. Hade jag valt den vanliga "red" så tycker jag den hade stuckit ut för mycket och blivit en lite skrikig färg. Jag slänger också en en två gröna nyanser som bryter väldigt bra med det svarta men ändå passar in med den röda färgen.
+
+
+##Typography
+
+####fontFamilyHeadings: 
+"Courier New", Courier, monospace;
+
+####fontFamilyBody:  
+Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+####fontFamilyCode:
+
+Times, 'Times New Roman', serif;
+
+Jag valde dessa i mitt typography tema utan någon större anledning. Eftersom det strulade mycket för mig som jag skrivit i redovisning texten så valde jag fonts som skulle visa att det blir en tydlig skillnad när man byter till detta tema.
