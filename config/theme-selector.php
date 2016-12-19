@@ -94,6 +94,27 @@ return [
             "class"      => "principle3",
             "stylesheets" => ["css/principle3.min.css"]
         ],
+
+        "separator3" => "------------------------------------------------",
+
+        "Tema 1"       => [
+            "title"      => "Tema1",
+            "class"      => "tema1",
+            "stylesheets" => ["css/tema1.min.css"]
     ],
+
+        "Tema 2"       => [
+            "title"      => "Tema",
+            "class"      => "tema2",
+            "stylesheets" => ["css/tema2.min.css"]
+        ],
+
+        "Tema 3"       => [
+            "title"      => "Tema",
+            "class"      => "tema3",
+            "stylesheets" => ["css/tema3.min.css"]
+        ],
+    ],
+
 
 ];

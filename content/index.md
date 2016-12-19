@@ -1,6 +1,3 @@
----
-titleBreadcrumb: Hem
-...
 Skapad med Anax Flat
 ===============================
 
